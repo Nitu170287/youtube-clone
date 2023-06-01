@@ -121,7 +121,7 @@ function navigateToVideo(videoId) {
     document.cookie = `video_Id = ${videoId}; path=${path}`;
     // window.location.href = "http://127.0.0.1:5500/YouTube-clone/video.html";
     let linkItem = document.createElement("a");
-    linkItem.href = "http://127.0.0.1:5500/YouTube-clone/video.html";
+    linkItem.href = "./video.html";
     linkItem.target = "_blank";
     linkItem.click();
   } else {
